@@ -1,0 +1,225 @@
+body{
+    margin:0;
+    padding: 0;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../img/circoback.jpg);
+    background-size: 100%;
+   
+}
+
+.container{
+    width: min-content;
+    text-align: justify;
+    background-color:rgb(255, 145, 137);
+    border: 1px solid #676767;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.menubar{
+    background-color: rgb(255, 145, 137);
+    color: black;
+    padding: 0.2%;
+}
+
+.menubar li{
+    display: inline;
+    padding: 0 2%;
+    margin-left: 5%;
+}
+
+.menubar li a {
+    text-decoration: none;
+    color: rgb(53, 35, 156);
+    font-size: 18px;
+}
+
+.menubar li a:hover, a:active {
+    text-decoration: none;
+    color: rgb(243, 0, 0);
+    background-color: rgb(152, 207, 23);
+}
+
+.content{
+    padding: 1%;
+    font-size: 18px;
+}
+
+.texto{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.content p{
+    text-align: center; 
+    font-size: 24px;
+    color: rgb(53, 35, 156);
+}
+
+.content h2{
+    text-align: center;
+    color: rgb(53, 35, 156) ;
+}
+
+.autor{
+    font-weight: bold;
+    text-align: right;
+}
+
+.footer{
+    padding: 2%;
+    background-color: rgb(255, 145, 137);
+    color: rgb(185, 4, 170);
+    text-align: right;
+    font-weight: bold;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+.header{
+    position: relative;
+    margin-bottom: 12%;
+    
+}
+
+.header h1{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.img-home{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    padding: 1%;
+}
+
+.img-galeria{
+    padding: 2%;
+    width: 280px;
+    height: 280px;
+    border-radius: 10%;
+}
+
+figcaption, a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.conecta{
+    text-decoration: none;
+}
+
+.zap-local{
+    float: right;
+    margin: 10% 15% 0 0;
+    text-align: center;
+}
+
+.mapa-local{
+    margin-left: 5%;
+}
+
+.grupoform{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 8%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.topo{
+    font-size: 800px;
+    color: rgb(53, 35, 156);
+    margin-left: 12%; 
+    text-align: right;
+}
+.table{
+    width: 40%;
+}
+
+.whatsapp2{
+    width: 60px;
+    bottom: 18px;
+}
+.instagram{ 
+    width: 60px;
+    bottom: 18px;
+}
+
+
+@media (max-width: 800px){
+    .teste {width: 95%;}
+
+}
+@media (max-width: 1200px) {
+    .zap-local{display: none;}
+}
+@media(max-width: 1199px){
+    .menubar li a {
+        text-decoration: none;
+        color: rgb(53, 35, 156);
+        font-size: 18px;
+    }
+    .menubar li{
+        display: inline;
+        padding: 0 2%;
+        margin-left: 3%;
+    }
+    .menubar{
+        background-color: rgb(255, 145, 137);
+        color: black;
+        padding: 0.2%;
+    }
+}
+@media(max-width: 600px){
+    .menubar li a {
+        text-decoration: none;
+        color: rgb(53, 35, 156);
+        font-size: 20px;
+    }
+    .menubar li{
+        text-align: center;
+        display: block;
+        padding: 0.5px 0.5px;
+        margin-left: 1%;
+        width: 99%;
+    }
+    .menubar{
+        background-color: rgb(255, 145, 137);
+        color: black;
+        padding: 0.1%;
+        
+    }
+    .content{
+        padding: 1%;
+        font-size: 10px;
+    }
+    
+    .texto{
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+    .content p{
+        text-align: center; 
+        font-size: 18px;
+    }
+    
+    .content h2{
+        text-align: center;
+        font-size: 25px;
+        float: inline-start;
+    }
+    .header h1{
+        position: absolute;
+        margin-left: 12%;
+        margin-top: 3%;}
+}
